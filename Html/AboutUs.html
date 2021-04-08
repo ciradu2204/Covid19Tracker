@@ -1,0 +1,190 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    <title>Covid-19Info</title>
+    <meta name="author" content="Cynthia Iradukunda">
+    <meta name="description" content=" The Covid19Info is a website to help people interested to travel in Uk, Rwanda, and Mauritius get information on the current situation of Covid19.">
+    <link rel="stylesheet" href="../Css/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Della+Respira&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <nav class="nav">
+         
+        <div class="background-aboutUs">
+            <div class="AboutUsInfo">
+
+                <h1>About Covid-19Info</h1>
+
+                <p>
+                    Due to Covid-19, there are a lot of restrictions that can limit you from travelling without being aware of them. We help you get all the needed information for you to travel in a specific country.
+                    In addition, we update you on the current situation such as the number of confirmed cases and death.
+                </p>
+
+
+
+            </div>
+
+        </div>
+     
+
+        <div class="logo">
+            <h1>Covid-19Info</h1>
+        </div>
+
+
+        <div class="hamburg">
+
+            <div class="line"></div>
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+
+
+        <div class="sidebar">
+            <div class="nav-links">
+
+                <a href="../index.html">Home</a>
+                <div class="dropdown">
+                    <p class="dropbtn">Country<i class="fa fa-sort-down"></i></p>
+                    <div class="dropdown-content">
+                        <a href="Rwanda.html">Rwanda</a>
+                        <a href="UnitedKingdom.html">UK</a>
+                        <a href="Mauritius.html">Mauritius</a>
+                    </div>
+
+                </div>
+
+                 <div class="dropdown-mobileView">
+
+                     <a href="HTML/Rwanda.html">Rwanda</a>
+                     <a href="HTML/UnitedKingdom.html">UK</a>
+                     <a href="HTML/Mauritius.html">Mauritius</a>
+                 </div>
+                <a  class="active" href="AboutUs.html">About Us</a>
+                <a href="../PHP/ContactUs.php">Contact Us</a>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="FAQ">
+
+        <h1>FAQ</h1>
+
+        <div class="question-answer">
+
+            <div class="question">
+
+                <h2>How was the website built?</h2>
+            </div>
+
+            <div class="answer">
+
+                <p>
+                    This website is built using HTML5, CSS3, PHP, and JavaScript. Using different APIs, we were able to get the current situation of each country. We used Ajax fetch function to extract the data and Jquery to manipulate and display data. PHP was used to validate the form on the contact us page where as HTML and Css3 helped to write and style the content.
+                </p>
+
+            </div>
+
+
+        </div>
+
+        <div class="question-answer">
+
+            <div class="question">
+
+                <h2>Where can find the data?</h2>
+            </div>
+
+            <div class="answer">
+
+                <p>
+                    We used two different websites to get information of each country. One is <a href="https://covid19.who.int/">World Health Organisation (WHO)</a> and <a href="https://data.humdata.org/event/covid-19">HDX</a>. We used WHO to get live data about Covid-19 confirmed cases where ase HDX helped us to get travel restrictions, vaccination and death data in form of csv.
+
+            </div>
+
+
+        </div>
+
+    </section>
+    <hr />
+
+    <section class="team">
+
+        <div class="teamDetails">
+            <h1>Developer</h1>
+            <img src="../Image/Cynthia.jpg">
+            <h2>Cynthia Iradukunda</h2>
+            <p>
+                Cynthia is a junior Computing student at the African Leadership University. She aspires to be a software engineer because it allows her to use her coding skills. 
+            </p>
+        </div>
+
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="info">
+
+            <h1>Covid19-Info</h1>
+            <p> Travel everywhere with every information </p>
+
+            <div class="links">
+
+                <a><i class="fa fa-facebook-f"></i></a>
+                <a><i class="fa fa-twitter"></i></a>
+                <a><i class="fa fa-instagram"></i></a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="countries">
+
+            <h1>Country</h1>
+
+            <div class="links">
+                <a href="Rwanda.html">Rwanda</a>
+                <a href="UnitedKingdom.html">UK</a>
+                <a href="Mauritius.html">Mauritius</a>
+            </div>
+
+
+
+        </div>
+
+        <div class="usefulLinks">
+
+            <h1>Useful Links</h1>
+
+            <div class="links">
+                <a href="AboutUs.html">About Us</a>
+                <a href="../PHP/ContactUs.php">Contact us</a>
+            </div>
+
+
+        </div>
+
+
+
+
+
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../javaScript/AboutUs.js"></script>
+
+</body>
+</html>
